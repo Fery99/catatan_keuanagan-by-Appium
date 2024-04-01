@@ -1,0 +1,1210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Financial records, to record daily finances",
+        "description": "",
+        "id": "financial-records;financial-records,-to-record-daily-finances",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12797235114,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": user launch apps and on Transaction dashboard",
+            "match": {
+              "location": "stepDef.userLaunchAppsAndOnTransactionDashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5327010639,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#    Add day one, 1 April"
+              }
+            ],
+            "line": 7,
+            "name": "user tap add button",
+            "match": {
+              "location": "stepDef.userTapAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 230931665,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on Page Create Transaction",
+            "match": {
+              "location": "stepDef.userOnPageCreateTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1295190747,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user tap income",
+            "match": {
+              "location": "stepDef.userTapIncome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244970360,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user tap date income",
+            "match": {
+              "location": "stepDef.userTapDateIncome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051971750,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select date one",
+            "match": {
+              "location": "stepDef.userSelectDateOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376637456,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user tap OK",
+            "match": {
+              "location": "stepDef.userTapOK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 757131581,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user tap Category income",
+            "match": {
+              "location": "stepDef.userTapCategoryIncome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1887577575,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user tap Category One",
+            "match": {
+              "location": "stepDef.userTapCategoryOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2278422573,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user tap Amount and input Ammount \"400000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400000",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDef.userTapAmountAndInputAmmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2246003273,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user input Note \"Freelance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Freelance",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDef.userInputNote(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583596059,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "tap save button",
+            "match": {
+              "location": "stepDef.tapSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6058825463,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user tap add button",
+            "match": {
+              "location": "stepDef.userTapAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278667157,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user on Page Create Transaction",
+            "match": {
+              "location": "stepDef.userOnPageCreateTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 805953072,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user tap Expense",
+            "match": {
+              "location": "stepDef.userTapExpense()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 888442882,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user tap date expence",
+            "match": {
+              "location": "stepDef.userTapDateExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1632994621,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user select date one",
+            "match": {
+              "location": "stepDef.userSelectDateOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1289042355,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user tap OK",
+            "match": {
+              "location": "stepDef.userTapOK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256079495,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user tap Category expence",
+            "match": {
+              "location": "stepDef.userTapCategoryExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1611871667,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user tap Category two",
+            "match": {
+              "location": "stepDef.userTapCategoryTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2268535685,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user tap Amount and input Ammount \"200000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200000",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDef.userTapAmountAndInputAmmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2195355991,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user input Note \"Broke\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Broke",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDef.userInputNote(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782070249,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "tap save button",
+            "match": {
+              "location": "stepDef.tapSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6117677550,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 29,
+                "value": "#    Add day two, 2 April"
+              }
+            ],
+            "line": 30,
+            "name": "user tap add button",
+            "match": {
+              "location": "stepDef.userTapAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228573288,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user on Page Create Transaction",
+            "match": {
+              "location": "stepDef.userOnPageCreateTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 574662306,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user tap Expense",
+            "match": {
+              "location": "stepDef.userTapExpense()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1204482675,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user tap date expence",
+            "match": {
+              "location": "stepDef.userTapDateExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1798679132,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user select date three",
+            "match": {
+              "location": "stepDef.userSelectDateThree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 904314864,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user tap OK",
+            "match": {
+              "location": "stepDef.userTapOK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276079850,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user tap Category expence",
+            "match": {
+              "location": "stepDef.userTapCategoryExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1751635712,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user tap Category two",
+            "match": {
+              "location": "stepDef.userTapCategoryTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2249595352,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user tap Amount and input Ammount \"300000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDef.userTapAmountAndInputAmmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2225959898,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user input Note \"Daily Expense\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daily Expense",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDef.userInputNote(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272257833,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "tap save button",
+            "match": {
+              "location": "stepDef.tapSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6132899195,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 41,
+                "value": "#    Add day Three, 3 April"
+              }
+            ],
+            "line": 42,
+            "name": "user tap add button",
+            "match": {
+              "location": "stepDef.userTapAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178098850,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user on Page Create Transaction",
+            "match": {
+              "location": "stepDef.userOnPageCreateTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171242223,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user tap income",
+            "match": {
+              "location": "stepDef.userTapIncome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242700017,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user tap date income",
+            "match": {
+              "location": "stepDef.userTapDateIncome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1565677185,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user select date fourth",
+            "match": {
+              "location": "stepDef.userSelectDateFourth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 885632617,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user tap OK",
+            "match": {
+              "location": "stepDef.userTapOK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284732982,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user tap Category income",
+            "match": {
+              "location": "stepDef.userTapCategoryIncome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2088089067,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user tap Category fourth",
+            "match": {
+              "location": "stepDef.userTapCategoryFourth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2190593443,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user tap Amount and input Ammount \"700000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "700000",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDef.userTapAmountAndInputAmmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2227616349,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user input Note \"Play And Win\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Play And Win",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDef.userInputNote(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250322585,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "tap save button",
+            "match": {
+              "location": "stepDef.tapSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6077992972,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user tap add button",
+            "match": {
+              "location": "stepDef.userTapAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 387989805,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user on Page Create Transaction",
+            "match": {
+              "location": "stepDef.userOnPageCreateTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090819282,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user tap Expense",
+            "match": {
+              "location": "stepDef.userTapExpense()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174144069,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user tap date expence",
+            "match": {
+              "location": "stepDef.userTapDateExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1685807707,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user select date five",
+            "match": {
+              "location": "stepDef.userSelectDateFive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279070711,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user tap OK",
+            "match": {
+              "location": "stepDef.userTapOK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 852103213,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user tap Category expence",
+            "match": {
+              "location": "stepDef.userTapCategoryExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1720594347,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user tap Category five",
+            "match": {
+              "location": "stepDef.userTapCategoryFive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2239747739,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user tap Amount and input Ammount \"500000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500000",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDef.userTapAmountAndInputAmmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2211983254,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user input Note \"Daily Expense\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daily Expense",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDef.userInputNote(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242177804,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "tap save button",
+            "match": {
+              "location": "stepDef.tapSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2504866879,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 64,
+                "value": "#    for analys, view for 3 days activity"
+              }
+            ],
+            "line": 65,
+            "name": "user tap other on top corner",
+            "match": {
+              "location": "stepDef.userTapOtherOnTopCorner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 712289572,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user select Chart",
+            "match": {
+              "location": "stepDef.userSelectChart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993085409,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user on page chart",
+            "match": {
+              "location": "stepDef.userOnPageChart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045290543,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user select view option",
+            "match": {
+              "location": "stepDef.userSelectViewOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806574395,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user select Overview",
+            "match": {
+              "location": "stepDef.userSelectOverview()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133558761,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user get inform summary of income and expence",
+            "match": {
+              "location": "stepDef.userGetInformSummaryOfIncomeAndExpence()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183942109,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 71,
+                "value": "#    Add day four, 4 April"
+              }
+            ],
+            "line": 72,
+            "name": "from chart back to homepage",
+            "match": {
+              "location": "stepDef.fromChartBackToHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9031665681,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user tap add button",
+            "match": {
+              "location": "stepDef.userTapAddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203736720,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "user on Page Create Transaction",
+            "match": {
+              "location": "stepDef.userOnPageCreateTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556556153,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "user tap Expense",
+            "match": {
+              "location": "stepDef.userTapExpense()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 720525083,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "user tap date expence",
+            "match": {
+              "location": "stepDef.userTapDateExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1795048671,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user select date six",
+            "match": {
+              "location": "stepDef.userSelectDateSix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 867842641,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "user tap OK",
+            "match": {
+              "location": "stepDef.userTapOK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273047520,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "user tap Category expence",
+            "match": {
+              "location": "stepDef.userTapCategoryExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1731027122,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "user tap Category five",
+            "match": {
+              "location": "stepDef.userTapCategoryFive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2256569121,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user tap Amount and input Ammount \"300000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDef.userTapAmountAndInputAmmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2186295937,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "user input Note \"Daily Expense\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daily Expense",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDef.userInputNote(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 589238736,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "tap save button",
+            "match": {
+              "location": "stepDef.tapSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2960901347,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 84,
+                "value": "#    delete day two, 2 April"
+              }
+            ],
+            "line": 85,
+            "name": "user tap day two result",
+            "match": {
+              "location": "stepDef.userTapDayTwoResult()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207729740,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user tap transaction selected",
+            "match": {
+              "location": "stepDef.userTapTransactionSelected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021835585,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "user on Page Create Transaction",
+            "match": {
+              "location": "stepDef.userOnPageCreateTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 781406477,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user can delete transaction",
+            "match": {
+              "location": "stepDef.userCanDeleteTransaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2016746582,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user select YES",
+            "match": {
+              "location": "stepDef.userSelectYES()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203014537,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "user back to home",
+            "match": {
+              "location": "stepDef.userBackToHome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6067240677,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": ": user launch apps and on Transaction dashboard",
+            "match": {
+              "location": "stepDef.userLaunchAppsAndOnTransactionDashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1210885686,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 93,
+                "value": "#    for analys, view analysis after delete day 2"
+              }
+            ],
+            "line": 94,
+            "name": "user tap other on top corner",
+            "match": {
+              "location": "stepDef.userTapOtherOnTopCorner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607210971,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "user select Chart",
+            "match": {
+              "location": "stepDef.userSelectChart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 551842538,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "user on page chart",
+            "match": {
+              "location": "stepDef.userOnPageChart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 418457418,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "user select view option",
+            "match": {
+              "location": "stepDef.userSelectViewOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 986654402,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "user select Overview",
+            "match": {
+              "location": "stepDef.userSelectOverview()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1287434796,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "user get inform summary of income and expence",
+            "match": {
+              "location": "stepDef.userGetInformSummaryOfIncomeAndExpence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186316103,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "from chart back to homepage",
+            "match": {
+              "location": "stepDef.fromChartBackToHomepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6054783121,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": ": user launch apps and on Transaction dashboard",
+            "match": {
+              "location": "stepDef.userLaunchAppsAndOnTransactionDashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Financial_records"
+          }
+        ]
+      }
+    ],
+    "name": "Financial records",
+    "description": "",
+    "id": "financial-records",
+    "keyword": "Feature",
+    "uri": "useApss.feature"
+  }
+]

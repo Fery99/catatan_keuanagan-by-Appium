@@ -19,7 +19,7 @@ import io.appium.java_client.AppiumDriver;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"steps"},
-        tags = {"@SkyScanner"},
+//        tags = {"@apaiya"},
         format = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",
@@ -27,6 +27,7 @@ import io.appium.java_client.AppiumDriver;
                 "rerun:target/cucumber-reports/rerun.txt"
         },plugin = {"json:target/cucumber-reports/CucumberTestReport.json",
         "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"})
+
 
 public class TestNGRunner {
     private TestNGCucumberRunner testNGCucumberRunner;
